@@ -1,0 +1,72 @@
+body{
+    background-color: #FAFAFA;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container{
+    margin: 50px;
+    background: #FAFAFA;
+    padding: 30px;
+}
+
+
+.perfil-foto{
+    width: 290px;
+    height: 260px;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+
+.dados-perfil {
+    background-color: white;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.bio{
+    padding-left: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.trabalhos{
+     
+}
+
+.lista-trabalhos{
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   
+   
+}
+
+.trabalho{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.destaque{
+    color: #FFC107;
+    display: flex;
+    justify-content: flex-end;
+}
