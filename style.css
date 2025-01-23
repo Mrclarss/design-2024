@@ -7,7 +7,7 @@ body{
 
 .container{
     margin: 50px;
-    background: #b1acac;
+    background: #FAFAFA;
     padding: 30px;
 
 }
@@ -49,6 +49,12 @@ footer{
 }
 
 .trabalhos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tittle-trabalhos{
     
 }
 
@@ -65,11 +71,12 @@ footer{
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin: 5px;
+    
 }
 
 .destaque{
     color: #FFC107;
     display: flex;
     justify-content: flex-end;
-    
+
 }
