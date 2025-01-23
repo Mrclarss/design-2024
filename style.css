@@ -8,7 +8,6 @@ body{
 .container{
     margin: 50px;
     background: #FAFAFA;
-    padding: 30px;
 
 }
 
@@ -55,6 +54,7 @@ footer{
 }
 
 .tittle-trabalhos{
+    flex-wrap: wrap;
     
 }
 
