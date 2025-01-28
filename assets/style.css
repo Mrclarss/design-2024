@@ -1,0 +1,135 @@
+/*cirar variavel para facilitar*/
+
+:root{
+    
+    --white: #FFF;
+    --black-100: #111;
+    --black-200: #333;
+    --black-300: #555;
+    --black-400: #EFF2F7;
+    --bg-header: #c11616;
+    --heigth-width-logo: 30px;
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 16px;
+    --space-4: 24px;
+    --space-5: 32px;
+    --space-6: 64px;
+
+}
+
+
+
+
+/*formatação do header*/
+
+body{
+    margin: 0;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header{
+    padding: 1em;
+    background: var(--bg-header);
+
+}
+
+/*formatação do header - main*/
+.principal{
+    color: var(--black);
+}
+
+.principal .list-categoria{
+    list-style: none;
+    padding: 0;
+}
+
+.principal .list-categoria li{
+    display: inline-block;
+}
+
+.principal .list-categoria li a{
+    color: var(--bg-header);
+    border: 1px solid;
+    display: block;
+    padding:var(--space-3);
+    text-decoration: none;
+
+    position: relative;
+}
+
+.principal .list-categoria li a:hover{
+    background: var(--bg-header);
+    color: var(--white);
+}
+
+.principal .list-categoria li a:hover span{
+    color: var(--bg-header);
+}
+
+.principal .list-categoria a span{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 0.65em;
+    padding: var(--space-1);
+    background-color: var(--white);
+
+    position: absolute;
+    top: 0;
+    right: -10;
+    z-index: 1000;
+}
+
+
+
+.principal .media .fotos{
+    display: flex;
+    gap: var(--space-2);
+}
+
+.principal .media .fotos .foto{
+    max-width: 240px;
+    text-decoration: none;
+}
+
+.principal .media .fotos .foto .span{
+    display: block;
+    color: var(--black-200);
+    font-weight: 500;
+
+}
+
+.principal .media .fotos .foto .img{
+    max-width: 100%;
+    margin-bottom: var(--space-2);
+}
+
+.principal .media .fotos .foto ::after {
+    max-width: 240px;
+    color: var(--black-200);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,8,43,1) 0%, rgba(0,0,0,1) 45%, rgba(255,255,255,0) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+
+/*customizar o footer*/
+.footer{
+    padding: 1em;
+}
+
+.color-white{ 
+    color: var(--white);
+}
+/* extra*/
+
+.border{
+    border: 1px solid;
+}
