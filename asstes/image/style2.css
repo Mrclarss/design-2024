@@ -1,0 +1,76 @@
+:root{
+    --bg-dark-blue: #001736;
+    --bg-bluee: #0D3F82;
+    --bg-blue: #203C86;
+    --bg-little-blue: #3A95E9;
+
+    --color-blue: #2648A1;
+    --color-yellow: #FFC82C;
+    --color-orange: #E7982F;
+    --color-white: #FAFAFC;
+    --color-white2: #ffffff48;
+
+
+}
+
+body{
+    margin: auto;
+    font-family: "Montserrat", serif;
+}
+.redes{
+    color: var(--color-white);
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    border-bottom: 1px solid var(--color-white2);
+    
+}
+
+
+.redes img{
+    margin-left: 10px;
+    
+}
+
+.header{
+    background: var(--bg-blue);
+    
+    
+}
+.container{
+    width: 80%;
+    max-width: 1200px;
+    padding: 5px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+
+.header span li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+    
+}
+
+.header span li a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+
+section .container{
+    width: 60%;
+    max-width: 1200px;
+    padding: 20px;
+    height: 114px;
+    margin: 0 auto;
+
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
