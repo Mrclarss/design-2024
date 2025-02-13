@@ -74,3 +74,20 @@ section .container{
     justify-content: space-between;
     align-items: center;
 }
+
+.container em{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--color-blue);
+}
+
+.container small{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-info{
+    max-width: 1200px;
+    width: 60%;
+    padding: 20px;
+}
