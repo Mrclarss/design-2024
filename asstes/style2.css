@@ -10,13 +10,21 @@
     --color-white: #FAFAFC;
     --color-white2: #ffffff48;
 
+    --max-width: 600px;
+}
 
+@media (max-width: 600px) {
+    .redes{
+        display: none;
+    }
 }
 
 body{
     margin: auto;
     font-family: "Montserrat", serif;
+    font-size: 14px;
 }
+
 .redes{
     color: var(--color-white);
     position: relative;
@@ -27,9 +35,8 @@ body{
     
 }
 
-
 .redes img{
-    margin-left: 10px;
+    margin-left: 20px;
     
 }
 
@@ -38,14 +45,16 @@ body{
     
     
 }
+
+
+
 .container{
     width: 80%;
-    max-width: 1200px;
     padding: 5px;
     height: 113px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
-
 
 .header span li {
     list-style: none;
@@ -59,13 +68,17 @@ body{
     color: var(--color-white);
 }
 
+.header span li a b{
+    border-bottom: 3px solid var(--color-yellow);
+    padding-bottom: 32px;
+    
+}
 
 section .container{
-    width: 60%;
-    max-width: 1200px;
+    width: 40%;
     padding: 20px;
     height: 114px;
-    margin: 0 auto;
+    margin: 40px auto;
 
 }
 
@@ -75,6 +88,7 @@ section .container{
     align-items: center;
 }
 
+<<<<<<< HEAD:asstes/style2.css
 .container em{
     display: flex;
     justify-content: flex-end;
@@ -91,3 +105,38 @@ section .container{
     width: 60%;
     padding: 20px;
 }
+=======
+section .right{
+    margin: 40px;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--color-blue);
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+section .right small{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+section img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container-info{
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+>>>>>>> 129b8af9461c5c6f3a1465044d5649ba03d31c27:asstes/image/style2.css
