@@ -1,0 +1,47 @@
+:root{
+    --bg-white: #FFFF;
+    --bg-little-blue: #F2F9FD;
+    --bg-bluezinho: #90CAE9;
+    --bg-blue: #4FADDB;
+    --bg-Strong-blue: #2e96c9;
+    --bg-dark-blue: #0D5EAF;
+    --bg-orange: #FF6600;
+    --color-dark-blue: #0F3679;
+}
+
+.container{
+    max-width: ;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    background: var(--bg-bluezinho);
+    border-bottom: solid 1px;
+
+}
+
+.header .logo {
+    display: flex;
+
+    
+   
+} 
+
+.header .direita{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header .direita a{
+    background: var(--bg-orange);
+    text-decoration: none;
+    width: 194px;
+    height: 32px;
+    border-radius: 4px;
+}
