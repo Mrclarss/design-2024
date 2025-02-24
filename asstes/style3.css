@@ -20,6 +20,7 @@ body{
 
 }
 
+
 .container{
     max-width: 100%;
     width: 100%px;
@@ -173,6 +174,7 @@ body{
     justify-content: space-between;
     width: 157px;
     height: 44px;
+    align-items: center;
    
     
 }
@@ -215,4 +217,39 @@ body{
     background: var(--bg-little-blue);
     display: flex;
     justify-content: space-between;
+    background: var(--bg-white);
 }
+
+.right a{
+    text-decoration: none;
+    
+
+}
+
+.right a:hover{
+    background: var(--color-dark-blue);
+}
+
+.right li{
+    list-style: none;
+}
+
+
+.blocos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 56px;
+    width: 30%;
+    padding: 16px 12px 24px 16px;
+    border-radius: 6px;
+    background-color: var(--bg-little-blue);
+}
+
+
+
